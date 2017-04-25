@@ -1,6 +1,6 @@
 # npmtest-sjcl
 
-#### test coverage for  [sjcl (v1.0.6)](https://github.com/bitwiseshiftleft/sjcl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sjcl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sjcl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sjcl.svg)](https://travis-ci.org/npmtest/node-npmtest-sjcl)
+#### basic test coverage for  [sjcl (v1.0.6)](https://github.com/bitwiseshiftleft/sjcl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sjcl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sjcl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sjcl.svg)](https://travis-ci.org/npmtest/node-npmtest-sjcl)
 
 #### Stanford Javascript Crypto Library
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sjcl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sjcl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sjcl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sjcl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sjcl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sjcl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sjcl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sjcl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sjcl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sjcl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sjcl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sjcl/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
         "lint": "eslint . || true",
         "test": "make test"
     },
-    "version": "1.0.6"
+    "version": "1.0.6",
+    "bin": {}
 }
 ```
 
